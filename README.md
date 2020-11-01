@@ -22,7 +22,6 @@ Available Commands:
   help         Help about any command
 
 Flags:
-      --config string   config file (default is $HOME/.weathercheck.yaml)
   -a, --apikey          Used to pass in your Weatherstack API key
   -l, --location        Used to pass in a zip code that you want to check the weather for
 ```
