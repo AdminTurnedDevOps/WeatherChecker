@@ -8,6 +8,25 @@ There are paid options, but you don't need them. The only caveat is you can't us
 
 ## Using weathercheck
 
+### Command
+The command used in the weathercheck tool is `checkweather`
+
+```shell
+weathercheck is a command-line tool you can use to check real-time weather in your area
+
+Usage:
+  weathercheck [command]
+
+Available Commands:
+  checkweather A brief description of your command
+  help         Help about any command
+
+Flags:
+      --config string   config file (default is $HOME/.weathercheck.yaml)
+  -a, --apikey          Used to pass in your Weatherstack API key
+  -l, --location        Used to pass in a zip code that you want to check the weather for
+```
+
 Install the tool by running `go install`
 
 To use the weathercheck command, run the following:
