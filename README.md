@@ -26,6 +26,7 @@ Flags:
   -l, --location        Used to pass in a zip code that you want to check the weather for
 ```
 
+### Install and Run
 Install the tool by running `go install`
 
 To use the weathercheck command, run the following:
