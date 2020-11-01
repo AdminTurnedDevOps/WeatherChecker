@@ -40,5 +40,5 @@ func init() {
 	rootCmd.AddCommand(checkweatherCmd)
 
 	checkweatherCmd.PersistentFlags().StringVarP(&Apikey, "apikey", "a", "", "inserts an API key for Weatherstack at runtime")
-	checkweatherCmd.PersistentFlags().StringVarP(&Location, "location", "s", "", "zip code that you want to check the weather for")
+	checkweatherCmd.PersistentFlags().StringVarP(&Location, "location", "l", "", "zip code that you want to check the weather for")
 }

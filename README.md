@@ -33,3 +33,9 @@ To use the weathercheck command, run the following:
 ```go
 weathercheck checkweather --apikey your_api_key --location your_zip_code
 ```
+
+OR
+
+```go
+weathercheck checkweather -a your_api_key -l your_zip_code
+```
